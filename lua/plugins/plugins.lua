@@ -71,7 +71,8 @@ local plugins = {
             -- refer to the configuration section below
         }
     },
-    { 'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons' }
+    { 'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons' },
+    { 'lewis6991/gitsigns.nvim', version = "*" },
 }
 
 return plugins
